@@ -32,8 +32,7 @@ robottino-amico-ar/
 ## 📖 Tesi
 
 **"Agenti di Intelligenza Artificiale: dall'autonomia all'azione"**  
-Tesi magistrale in Intelligenza Artificiale — IULM Milano, 2025  
-Relatrice: Prof. Guido Di Fraia
+Tesi magistrale in Intelligenza Artificiale — IULM Milano, 2026
 
 ## 📄 Licenza modello 3D
 
