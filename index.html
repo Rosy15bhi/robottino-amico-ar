@@ -65,6 +65,24 @@
       font-size: 0.8rem;
       color: #4a6f8f;
     }
+
+    #play-btn {
+      margin-top: 20px;
+      background-color: #a8d8ff;
+      color: #0d0d1a;
+      border: none;
+      border-radius: 30px;
+      padding: 12px 28px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(168, 216, 255, 0.3);
+      transition: transform 0.1s ease;
+    }
+
+    #play-btn:active {
+      transform: scale(0.97);
+    }
   </style>
 </head>
 <body>
@@ -83,7 +101,6 @@
     rotation-per-second="30deg"
     shadow-intensity="1"
     exposure="1"
-    ar-button-style="default"
   >
     <button slot="ar-button" style="
       background-color: #a8d8ff;
@@ -100,6 +117,12 @@
       👁️ Vedi in AR
     </button>
   </model-viewer>
+
+  <button id="play-btn" onclick="document.getElementById('robot-audio').play()">
+    🔊 Ascolta Robottino
+  </button>
+
+  <audio id="robot-audio" src="audio.mp3" preload="auto"></audio>
 
   <div class="info">
     <p>Questo è <span>Robottino Amico</span>, il nucleo cognitivo di un futuro robot fisico progettato come estensione della mente dell'utente.</p>
